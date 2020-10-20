@@ -21,14 +21,14 @@ iAXMaterialProgress *progress = [[iAXMaterialProgress alloc] init];
 [progress start];
 ```
 
-- **barColor:** color, sets the small bar's color (the spinning bar in the indeterminate wheel, or the progress bar)
-- **barWidth:** dimension, the width of the spinning bar
-- **rimColor:** color, the wheel's border color
-- **rimWidth:** dimension, the wheel's width (not the bar)
-- **spinSpeed:** float, the base speed for the bar in indeterminate mode, and the animation speed when setting a value on progress. The speed is in full turns per - - second, this means that if you set speed as 1.0, means that the bar will take one second to do a full turn.
-- **barSpinCycleTime:** integer, the time in milliseconds the indeterminate progress animation takes to complete (extending and shrinking the bar while spinning)
-- **circleRadius:** dimension, the radius of the progress wheel, it will be ignored if you set fillRadius to true
-- **linearProgress:** boolean, set to true if you want a linear animation on the determinate progress (instead of the interpolated default one).
+- **barColor:** sets the small bar's color (the spinning bar in the indeterminate wheel, or the progress bar)
+- **barWidth:** the width of the spinning bar
+- **rimColor:** the wheel's border color
+- **rimWidth:** the wheel's width (not the bar)
+- **spinSpeed:** the base speed for the bar in indeterminate mode, and the animation speed when setting a value on progress. The speed is in full turns per - - second, this means that if you set speed as 1.0, means that the bar will take one second to do a full turn.
+- **barSpinCycleTime:** the time in milliseconds the indeterminate progress animation takes to complete (extending and shrinking the bar while spinning)
+- **circleRadius:** the radius of the progress wheel, it will be ignored if you set fillRadius to true
+- **linearProgress:** set to true if you want a linear animation on the determinate progress (instead of the interpolated default one).
 
 
 ## Author 
@@ -36,7 +36,6 @@ iAXMaterialProgress *progress = [[iAXMaterialProgress alloc] init];
 
 License
 =======
-
     Copyright 2020 Amir Hossein Aghajari
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
