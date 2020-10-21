@@ -415,6 +415,10 @@
     return ((iAXMaterialProgressLayer*)self.layer).circleRadius;
 }
 
+- (void) setCircleRadius : (int) circleRadius {
+    ((iAXMaterialProgressLayer*)self.layer).circleRadius = circleRadius;
+}
+
 - (void) setFrame:(CGRect)frame {
     [super setFrame:frame];
     [(iAXMaterialProgressLayer*)self.layer setupBounds:frame.size.width:frame.size.height];
